@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="36">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="33" Y="17"/>
+        <UsageCount Value="34"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <CursorPos X="12" Y="2"/>
+        <UsageCount Value="21"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="democlmcombo.pas"/>
+        <ComponentName Value="ComboDemoForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="DemoclmCombo"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="13" Y="25"/>
+        <UsageCount Value="15"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="clmcombobox.pas"/>
+        <UnitName Value="clmCombobox"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="15"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../lcl/stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <TopLine Value="552"/>
+        <CursorPos X="56" Y="577"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../lazarus/clm/test/colcombo.pp"/>
+        <UnitName Value="ColCombo"/>
+        <TopLine Value="165"/>
+        <CursorPos X="25" Y="188"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../lazarus/lcl/grids.pas"/>
+        <UnitName Value="Grids"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../lazarus/lcl/maps.pp"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="clmpackage.pas"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="12" Y="16"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../colcombo/colcombo.pp"/>
+        <UnitName Value="ColCombo"/>
+        <TopLine Value="153"/>
+        <CursorPos Y="173"/>
+        <UsageCount Value="13"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../colcombo/columncombo.pas"/>
+        <UnitName Value="ColumnCombo"/>
+        <CursorPos Y="11"/>
+        <UsageCount Value="13"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../lazarus/lcl/stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <TopLine Value="1558"/>
+        <CursorPos X="11" Y="1574"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../lazarus/lcl/include/customlistbox.inc"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../lazarus/lcl/include/customcombobox.inc"/>
+        <TopLine Value="1029"/>
+        <CursorPos X="9" Y="1044"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../lazarus/lcl/lmessages.pp"/>
+        <UnitName Value="LMessages"/>
+        <CursorPos X="14" Y="8"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../csvdocument/csvdocument.pas"/>
+        <UnitName Value="CsvDocument"/>
+        <TopLine Value="58"/>
+        <CursorPos Y="58"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="jdblabeledfloatedit.pas"/>
+        <UnitName Value="JDBLabeledFloatEdit"/>
+        <TopLine Value="129"/>
+        <CursorPos X="15" Y="138"/>
+        <UsageCount Value="11"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="clmdbedit.pas"/>
+        <UnitName Value="clmDBedit"/>
+        <TopLine Value="514"/>
+        <CursorPos Y="551"/>
+        <UsageCount Value="13"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../jujiboutils/src/jinputconsts.pas"/>
+        <CursorPos Y="13"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../jujiboutils/src/jdbutils.pas"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../jujiboutils/src/jlabeledfloatedit.pas"/>
+        <UnitName Value="JLabeledFloatEdit"/>
+        <TopLine Value="139"/>
+        <CursorPos X="36" Y="170"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../../lazarus/fpc/2.6.2/source/rtl/objpas/math.pp"/>
+        <TopLine Value="24"/>
+        <CursorPos X="7" Y="43"/>
+        <UsageCount Value="10"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../jujiboutils/src/jdblabeledcurrencyedit.pas"/>
+        <UsageCount Value="12"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../../holbaek/holbaekmain.pas"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="190"/>
+        <CursorPos X="32" Y="211"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../../lazarus/lcl/widgetset/wsgrids.pp"/>
+        <UnitName Value="WSGrids"/>
+        <TopLine Value="23"/>
+        <CursorPos X="32" Y="42"/>
+        <UsageCount Value="10"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="grids.pas"/>
+        <UnitName Value="Grids"/>
+        <TopLine Value="553"/>
+        <CursorPos X="3" Y="568"/>
+        <UsageCount Value="10"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="project1.lpi"/>
+        <CursorPos X="18" Y="23"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../../lazarus/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <TopLine Value="7"/>
+        <CursorPos X="2" Y="22"/>
+        <UsageCount Value="11"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="democlmcombo.lfm"/>
+        <TopLine Value="127"/>
+        <CursorPos Y="149"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="clmgrids.pas"/>
+        <UnitName Value="clmGrids"/>
+        <TopLine Value="106"/>
+        <CursorPos Y="106"/>
+        <UsageCount Value="10"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../../lazarus/lcl/dynamicarray.pas"/>
+        <UnitName Value="DynamicArray"/>
+        <CursorPos X="19"/>
+        <UsageCount Value="10"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../../lazarus/lcl/interfaces/win32/win32wsfactory.pas"/>
+        <UnitName Value="Win32WSFactory"/>
+        <CursorPos X="57" Y="8"/>
+        <UsageCount Value="10"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="colcombo.pas"/>
+        <UnitName Value="ColCombo"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="16" Y="19"/>
+        <UsageCount Value="10"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="../../lazarus/lcl/interfaces/win32/win32int.pp"/>
+        <UnitName Value="Win32Int"/>
+        <TopLine Value="3"/>
+        <CursorPos X="24" Y="6"/>
+        <UsageCount Value="10"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="../../../codetyphon/typhon/ide/typhon.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="340"/>
+        <CursorPos Y="368"/>
+        <UsageCount Value="10"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="../../holbaekmain.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="55" Y="9"/>
+        <UsageCount Value="10"/>
+      </Unit35>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectSession>
+</CONFIG>

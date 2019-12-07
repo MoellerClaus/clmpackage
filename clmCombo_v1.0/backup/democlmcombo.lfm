@@ -1,0 +1,201 @@
+object ComboDemoForm: TComboDemoForm
+  Left = 580
+  Height = 487
+  Top = 156
+  Width = 739
+  Caption = 'Demo for clmCombobox...'
+  ClientHeight = 487
+  ClientWidth = 739
+  OnActivate = FormActivate
+  ShowHint = True
+  LCLVersion = '2.0.6.0'
+  object PageControl1: TPageControl
+    Left = 8
+    Height = 469
+    Top = 8
+    Width = 723
+    ActivePage = TabSheet2
+    TabIndex = 1
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Column'
+      ClientHeight = 441
+      ClientWidth = 715
+      object Button1: TButton
+        Left = 16
+        Height = 25
+        Top = 32
+        Width = 75
+        Caption = 'Advanced'
+        OnClick = Button1Click
+        TabOrder = 0
+      end
+      object clmCombobox1: TclmCombobox
+        Left = 152
+        Height = 22
+        Top = 32
+        Width = 424
+        Columns = <        
+          item
+            Color = clWindow
+            Visible = False
+          end        
+          item
+            Color = clWindow
+            Visible = False
+          end        
+          item
+            Color = clWindow
+            Visible = False
+          end>
+        ItemHeight = 16
+        OnChange = clmCombobox1Change
+        TabOrder = 1
+      end
+      object NotAdvanced: TButton
+        Left = 16
+        Height = 25
+        Top = 72
+        Width = 75
+        Caption = 'Easy'
+        OnClick = NotAdvancedClick
+        TabOrder = 2
+      end
+      object CheckHide1: TCheckBox
+        Left = 155
+        Height = 19
+        Hint = 'Hides column 1'
+        Top = 64
+        Width = 95
+        Caption = 'Hide column1'
+        OnClick = CheckHide1Click
+        TabOrder = 3
+      end
+      object CheckJustify: TCheckBox
+        Left = 155
+        Height = 19
+        Hint = 'Right or left justify column 0'
+        Top = 88
+        Width = 184
+        Caption = 'Change alignment in column 0'
+        OnClick = CheckJustifyClick
+        TabOrder = 4
+      end
+      object CheckLines: TCheckBox
+        Left = 155
+        Height = 19
+        Hint = 'ShowColSeperator'
+        Top = 112
+        Width = 144
+        Caption = 'Lines between columns'
+        OnChange = CheckLinesChange
+        TabOrder = 5
+      end
+      object FontButton: TButton
+        Left = 155
+        Height = 25
+        Hint = 'Changes font in column 2'
+        Top = 136
+        Width = 75
+        Caption = 'Font in 2'
+        OnClick = FontButtonClick
+        TabOrder = 6
+      end
+      object Color1Btn: TButton
+        Left = 248
+        Height = 25
+        Hint = 'Changes color in column 1'
+        Top = 136
+        Width = 75
+        Caption = 'Color in 1'
+        OnClick = Color1BtnClick
+        TabOrder = 7
+      end
+      object IndexOgBtn: TButton
+        Left = 344
+        Height = 25
+        Hint = 'Searches for index of Claus'
+        Top = 136
+        Width = 75
+        Caption = 'Index of'
+        OnClick = IndexOgBtnClick
+        TabOrder = 8
+      end
+      object TextBtn: TButton
+        Left = 440
+        Height = 25
+        Hint = 'Shows text property'
+        Top = 136
+        Width = 75
+        Caption = 'Text is?'
+        OnClick = TextBtnClick
+        TabOrder = 9
+      end
+      object Memo1: TMemo
+        Left = 16
+        Height = 90
+        Top = 216
+        Width = 560
+        Lines.Strings = (
+          'Demo for a columncombobox'
+          'This is a demo of main features. clmCombo functions in 2 ways.'
+          '1. Easy approach using items with deliters to seperate columns'
+          '2. Advanced using the columns. With Columns.Count > 0 advanced is selected.'
+          'Enjoy Claus Moeller, 11.2016'
+        )
+        OnChange = Memo1Change
+        TabOrder = 10
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'TabSheet2'
+      ClientHeight = 441
+      ClientWidth = 715
+      object clmDBLabeledEdit1: TclmDBLabeledEdit
+        Left = 69
+        Height = 23
+        Top = 51
+        Width = 80
+        DataFormat = clmSqlite
+        EditLabel.Height = 15
+        EditLabel.Width = 80
+        EditLabel.Caption = 'test'
+        EditLabel.ParentColor = False
+        TabOrder = 0
+      end
+    end
+  end
+  object FontDialog1: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 184
+    top = 169
+  end
+  object ColorDialog1: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    left = 313
+    top = 169
+  end
+end
